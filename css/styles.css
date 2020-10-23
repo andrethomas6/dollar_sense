@@ -176,6 +176,29 @@ img {
   margin-top: 20px;
 }
 
+/* Post */
+.post {
+  padding: 50px 30px;
+}
+
+.post h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post .meta {
+  margin-bottom: 30px;
+}
+
+.post img {
+  width: 400px;
+  border-radius: 20%;
+  display: block;
+  margin: 0 auto 30px;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -194,7 +217,7 @@ img {
   color: #28a745;
 }
 
-.footer .social > * {
+.footer .social>* {
   margin: 15px;
 }
 
@@ -215,7 +238,8 @@ img {
     flex-direction: column;
   }
 
-  .flex-columns .column, .flex-grid .column{
+  .flex-columns .column,
+  .flex-grid .column {
     flex: 100%;
     max-width: 100%;
   }
@@ -224,4 +248,3 @@ img {
     width: 70%;
   }
 }
-
