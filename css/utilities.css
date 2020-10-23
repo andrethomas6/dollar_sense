@@ -66,6 +66,9 @@
 }
 
 /* Flex Columns */
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
 
 .flex-columns .row {
   display: flex;
@@ -96,7 +99,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  text-align: justify;
+  text-align: center;
   padding: 30px;
 }
 
@@ -121,7 +124,7 @@
   padding: 30px;
   align-items: center;
   justify-content: center;
-  text-align: justify;
+  text-align: center;
 }
 
 .section-header h2 {
