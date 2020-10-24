@@ -1,1 +1,1 @@
-# dollar_sense
+# Dollar Sense Application
